@@ -1,0 +1,6 @@
+{
+    "extends": ["plugin:react/recommended","airbnb-typescript"],
+    "parserOptions": {
+        "project": "./tsconfig.json"
+      }
+}

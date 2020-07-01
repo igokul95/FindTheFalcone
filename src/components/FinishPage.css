@@ -1,0 +1,101 @@
+.falcon-finish-main{
+    height: 100vh;
+    background: url('./back.jpg') no-repeat;
+    /* padding: 7em 18em 7em 18em;  */
+    align-content: center;
+}
+.falcon-finish-col{
+    padding: 1em;
+    background-color: rgb(0, 0, 0,.3);
+    text-align: center;
+    margin: 7em 18em 7em 18em; 
+}
+.falcon-finish-status {
+    color :rgb(188, 188, 188);
+    font-family: 'Abel', sans-serif;
+}
+.falcon-data {
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
+.falcon-finish-congrats {
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
+.falcon-finish-main .ant-btn-primary {
+    background-color: rgb(188, 188, 188,.7);
+    font-family: 'Alfa Slab One', cursive;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    border-radius: 0.5em;
+    border-color: #bcbcbc;
+    height: fit-content;
+    /* padding: 1em; */
+  }
+  .falcon-finish-main .ant-btn {
+    font-size: 1.2em ;
+    padding: .5em 2em;
+    color: hsl(252, 9%, 10%);
+    text-align: center;
+  }
+  .falcon-finish-main .ant-btn-primary:hover {
+      background:rgba(167, 164, 164, 0.7);
+      border-color: rgb(188, 188, 188,.7);
+      color: black;
+  }
+  .falcon-finish-main .layout{
+    height: 100vh;
+    font-family: 'Abel', sans-serif;
+    color: white;
+    background: url('./back.jpg') no-repeat;
+    z-index: 1000;
+    
+  }
+  .falcon-finish-main .ant-layout-header {
+    height: fit-content;
+    padding: 0em;
+    background-color: rgb(0, 0, 0,.3);
+  }
+  .finding-falcone-restart{
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: 1em;
+    padding-right: 4em;
+    font-weight: bold;
+  }
+  .finding-falcone-restart-link{
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.1em;
+    /* padding-right: 4em; */
+  }
+  .finding-falcone-restart-link:hover {
+    color: rgb(150, 143, 143);
+    text-decoration: underline;
+  }
+  
+  .falcone-text {
+    color: white;
+    font-size: 1.5em;
+  }
+  .falcone-logo {
+    width: 4.5em;
+    height: 4.5em;
+    margin: 0em 1em 1em 1em;
+    float: left;
+    
+  }
+  .finding-falcone {
+    /* font-family: 'Alfa Slab One', cursive; */
+    color: white;
+    float: left;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    margin: .8em 0em;
+    font-weight: bold;
+  }
+  .falcon-finish-main .ant-layout-footer{
+    background-color: rgb(0, 0, 0,.3);
+    color: white;
+    font-size: 1.3em;
+  }
