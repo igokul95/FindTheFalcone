@@ -3,11 +3,13 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  useLocation,
 } from 'react-router-dom';
 
 import IntroPage from './IntroPage';
 import Selection from './Selection';
 import FinishPage from './FinishPage';
+
 
 function App() {
   return (
@@ -15,7 +17,7 @@ function App() {
       <div className="App-main">
 
         <Switch>
-          <Route path="/" exact>
+          <Route path="/FindTheFalcone" exact>
             <IntroPage />
           </Route>
           <Route path="/FindFalcone" exact>

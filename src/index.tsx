@@ -11,6 +11,7 @@ import App from './components/App';
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
+      {/* Hello world */}
       <App />
     </Provider>
   </React.StrictMode>,

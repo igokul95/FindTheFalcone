@@ -4,6 +4,7 @@ import {
   Switch,
   Route,
   Link,
+  useLocation,
 } from 'react-router-dom';
 import {
   Button,
@@ -14,6 +15,9 @@ import './IntroPage.css';
 import logo from './Logo.png';
 
 function IntroPage() {
+  const location = useLocation();
+  // eslint-disable-next-line no-console
+  console.log(location.pathname);
   return (
 
     <div className="falcon-intro-main">
